@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', serif;
+}
+
+.glow-text {
+  text-shadow: 0 0 10px rgba(255, 193, 7, 0.8), 0 0 20px rgba(255, 193, 7, 0.6);
+}
+
+html {
+  scroll-behavior: smooth; /* Enables smooth scrolling */
+}
+
+::-webkit-scrollbar {
+  display: none; /* Hides scrollbar for WebKit browsers (Chrome, Safari) */
+}
